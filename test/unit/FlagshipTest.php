@@ -188,6 +188,8 @@ class FlagshipTest extends TestCase
     /**
      * @covers \Wcomnisky\Flagship\Flagship::requestCampaignActivation
      * @covers \Wcomnisky\Flagship\Flagship::__construct
+     * @covers \Wcomnisky\Flagship\Flagship::getCompaignActivationUrl
+     * @covers \Wcomnisky\Flagship\Flagship::replaceNamedParameter
      */
     public function test_successful_requestCampaignActivation()
     {
